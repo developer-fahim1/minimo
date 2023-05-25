@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header start */
+nav {
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.menu ul {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.menu ul li {
+    list-style-type: none;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    margin: 15px 25px;
+    text-transform: uppercase;
+    color: #626294;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid black;
+    transition: 0.5;
+}
+
+/* menu End */
+/* banner start */
+.banner {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px 0px;
+}
+
+.banner img {
+    background-size: cover;
+
+    background-position: center;
+    width: 100%;
+
+}
+
+/* banner end */
+/* photodiary start */
+#photodiary {
+    padding: 70px 0px;
+}
+
+.photo_diary {
+    text-transform: uppercase;
+}
+
+.photo_diary p,
+h3 {
+    color: #626294;
+    margin: 15px 0px;
+}
+
+/* photodiary end */
+/* card Start */
+.card {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 0px;
+}
+
+/* Card End */
+/* newslatter Start */
+#newslatter {
+    background-color: #F0F0F0;
+    padding: 70px 0px;
+}
+
+.newslatter {
+    padding: 25px 0px;
+    text-align: center;
+}
+
+input {
+    margin: 10px 0px;
+}
+
+/* newslatter End */
+
+/* gallery start */
+.gallery {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+/* gallery end */
+/* footer start */
+footer {
+    padding: 35px 0px;
+    background-color: #F0F0F0;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer end */
